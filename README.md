@@ -1,7 +1,7 @@
 # Meinke
 Java app to assist importing/exporting between Garmin GPS and Sartopo
 
-[logo]: ./Screenshot.png "Screenshot"
+![Screenshot](./Screenshot.png)
 
 ## Installation
 1. Download and install java 11 or newer, Select "JDK Download" [https://www.oracle.com/java/technologies/javase-downloads.html](https://www.oracle.com/java/technologies/javase-downloads.html)
