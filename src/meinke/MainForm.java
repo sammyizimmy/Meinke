@@ -9,6 +9,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.List;
+import javax.swing.JOptionPane;
 import meinke.GPSS.Garmin;
 import net.samuelcampos.usbdrivedetector.USBDeviceDetectorManager;
 import net.samuelcampos.usbdrivedetector.events.DeviceEventType;
@@ -176,7 +177,10 @@ public class MainForm extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jMenuItemAboutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemAboutActionPerformed
-        
+        JOptionPane.showMessageDialog(this, "Meinke\n\n© 2021, Samuel Zimmerman (szimmerman484@gmail.com)\n\n"
+                + "Copying and distribution of this file, with or without modification, are permitted in any medium\n"
+                + "without royalty, provided the copyright notice and this notice are preserved. This\n"
+                + "file is offered as-is, without any warranty.","About",JOptionPane.PLAIN_MESSAGE);
     }//GEN-LAST:event_jMenuItemAboutActionPerformed
 
     private void jMenuItemExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemExitActionPerformed
