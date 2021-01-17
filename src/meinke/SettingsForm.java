@@ -6,7 +6,9 @@
 package meinke;
 
 import java.awt.Color;
+import java.util.Random;
 import javax.swing.JFileChooser;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -234,6 +236,10 @@ public class SettingsForm extends javax.swing.JDialog {
         }
         jLabelSarcasmValue.setForeground(new Color((int)(rval * 0.75), (int)(gval * 0.75), 0));
         jLabelSarcasmValue.setText(val + "%");
+        
+        if(val == 100){
+            JOptionPane.showMessageDialog(this, Meinke.insults[new Random().nextInt(Meinke.insults.length)],"Duh.",JOptionPane.PLAIN_MESSAGE);
+        }
     }//GEN-LAST:event_jSliderSarcasmStateChanged
 
     private void jButtonCancelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonCancelActionPerformed

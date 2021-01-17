@@ -180,4 +180,42 @@ public class Meinke{
         }
         return null;
     }
+    
+    public static String[] insults = {
+        "Boooo!",
+        "Don't you know anything?",
+        "Haha, n00b!",
+        "Pathetic",
+        "The worst one today!",
+        "n00b alert!",
+        "u suk",
+        "lol... plz",
+        "plz uninstall",
+        "Incompetence is also a form of competence",
+        "Bad.",
+        "Fake it till you make it!",
+        "What is this...? Amateur hour!?",
+        "Come on! You can do it!",
+        "Nice try.",
+        "Y u no speak computer???",
+        "Please step away from the keyboard!",
+        "error code: 1D10T",
+        "Go outside.",
+        "¯\\_(ツ)_/¯",
+        "Why are you so stupid?!",
+        "Perhaps computers is not for you...",
+        "Why are you doing this to me?!",
+        "Don't you have anything better to do?!",
+        "This is why nobody likes you.",
+        "Are you even trying?!",
+        "Try using your brain the next time!",
+        "Are you always this stupid or are you making a special effort today?!",
+        "Brains aren't everything. In your case they're nothing.",
+        "I don't know what makes you so stupid, but it really works.",
+        "You are not as bad as people say, you are much, much worse.",
+        "If what you don't know can't hurt you, you're invulnerable.",
+        "If ignorance is bliss, you must be the happiest person on earth.",
+        "Keep trying, someday you'll do something intelligent!",
+        "How many times do I have to flush before you go away?"
+    };
 }
