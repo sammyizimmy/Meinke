@@ -23,4 +23,3 @@ Java app to assist importing/exporting between Garmin GPS and Sartopo
 
 ##TODO
 1. Batch operations, import/export to all connected units.
-
